@@ -21,6 +21,10 @@ const handleUserInput = function(stdin) {
       connection.write("Move: down");
     } else if (key === 'd'){
       connection.write("Move: right");
+    } else if (key === 'h'){
+      connection.write("Say: Hi!")
+    }else if (key === 'o'){
+      connection.write("Say: Ow!")
     }
   });
 }

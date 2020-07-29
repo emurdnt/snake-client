@@ -8,6 +8,16 @@ const connect = function() {
   conn.on(('connect'),()=>{
     // console.log("you're in.")
     conn.write("Name: ECU");
+    // let count = 0;
+   
+    // let interval = setInterval(function(){ 
+    //   conn.write("Move: up");
+    //   count ++;
+    // }, 50);
+    // if(count = 5){
+    //   clearInterval(interval);
+    // }
+   
   });
   conn.on('close',(e)=>{
     console.log("you ded cuz you idled");

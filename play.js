@@ -20,3 +20,7 @@
 const { connect } = require('./client');
 console.log('Connecting ...');
 connect();
+
+
+// host: '135.23.222.131',
+// port:  50541
